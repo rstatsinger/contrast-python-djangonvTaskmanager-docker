@@ -21,7 +21,7 @@ Just git and docker
       level: ERROR
     service: 
       logger: 
-        path: /tmp/contrastagent.log
+        path: /tmp/contrastservice.log
         level: ERROR
        host: 127.0.0.1
        port: 30555
