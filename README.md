@@ -1,4 +1,4 @@
-# django.nV Task Master - Demo App for Contrast Security's Instrumentation-Based AppSec platform for Python - Easy Setup using Docker
+# django.nV Task Manager - Demo App for Contrast Security's Instrumentation-Based AppSec platform for Python - Easy Setup using Docker
 =========
 
 This is an intentionally vulnerable Python application. It includes vulnerabilities from the OWASP Top 10 and is intended to be used as an educational tool for developers and security professionals. Any maintainers are welcome to make pull requests.
