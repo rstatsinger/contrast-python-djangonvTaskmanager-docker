@@ -14,6 +14,7 @@ Just git and docker
 2. Drop your contrast_security.yaml file for the Python agent into the project root directory
 3. Edit the yaml file so that the **agent** stanza looks like this:
 
+```
   agent: 
     logger:
       path: /tmp/contrastagent.log
@@ -24,6 +25,7 @@ Just git and docker
         level: ERROR
        host: 127.0.0.1
        port: 30555
+```
 
 4. build.sh
 5. run.sh
