@@ -3,7 +3,7 @@
 
 This is an intentionally vulnerable Python application. It includes vulnerabilities from the OWASP Top 10 and is intended to be used as an educational tool for developers and security professionals. Any maintainers are welcome to make pull requests.
 
-This setup runs the application in a Docker container, isolating it from your environment.
+This setup runs the application in a Docker container, isolating it from your environment. The application is also instrumented with Contrast Security's Python instrumentation for embedded continuous application security.
 
 ## Prerequisites
 
