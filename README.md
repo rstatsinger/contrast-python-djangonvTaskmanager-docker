@@ -12,21 +12,6 @@ A Contrast Security account, git, and docker
 ## Instructions
 1. git clone this repo
 2. Drop your contrast_security.yaml file for the Python agent into the project root directory
-3. Edit the yaml file so that the **agent** stanza looks like this:
-
-```
-  agent: 
-    logger:
-      path: /tmp/contrastagent.log
-      level: ERROR
-    service: 
-      logger: 
-        path: /tmp/contrastservice.log
-        level: ERROR
-       host: 127.0.0.1
-       port: 30555
-```
-
-4. build.sh
-5. run.sh
-6. Interact with the application at http://localhost:8000 and look for the **djangonvTaskManager** application in your Contrast account's UI
+3. build.sh
+4. run.sh
+5. Interact with the application at http://localhost:8000 and look for the **djangonvTaskManager** application in your Contrast account's UI
